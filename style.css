@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 50px;
+    background-color: rgb(77, 78, 80);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(200, 203, 205);
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: rgb(77, 78, 80);
+    background-color: rgb(200, 203, 205);
+}
+
+section {
+    height: 500px;
+}
+
+footer {
+    border-top: 5px solid rgb(77, 78, 80);
+}
